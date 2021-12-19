@@ -1,0 +1,326 @@
+* {
+    margin : 0;
+    padding : 0;
+    
+    }
+
+
+
+/*
+    .listimage1 img{
+margin: 30px;
+        max-width: 40%;
+        height: 60%;
+
+    }
+
+    .listimage2 img{
+    
+                max-width: 40%;
+                height: 40%;
+                position: absolute;
+                top: 30px;
+                left: 900px;
+                border: 1px solid #000000;
+        
+            }
+
+            .listimage3 img{
+                margin: 30px;
+                        max-width: 40%;
+                        height: 60%;
+                
+                    }
+                
+                    .listimage4 img{
+                    
+                                max-width: 40%;
+                                height: 40%;
+                                position: absolute;
+                                top: 30px;
+                                left: 900px;
+                                border: 1px solid #000000;
+                        
+                            }  */
+
+           /* .image1 {
+                position: relative;
+                top: 0;
+                left: 0;
+                border: 1px solid #000000;
+              }
+              
+              .image2 {
+                position: absolute;
+                top: 30px;
+                left: 30px;
+                border: 1px solid #000000;
+              }*/
+
+
+              .parent {
+                position: relative;
+                top: 0;
+                left: 0;
+                border-radius: 50%;
+              }
+              
+              .image1 {
+                position: relative;
+                top: 0;
+                left: 0;
+                border: 1px solid #000000;
+                margin: 30px;
+        max-width: 40%;
+        height: 80%;
+        border-radius: 2%;
+
+              }
+              
+              .image2 {
+                position: absolute;
+                top: 310px;
+                left: 900px;
+                border: 1px solid #000000;
+                max-width: 800px;
+                width:35%;
+                height: 80%;
+                border-radius: 2%;
+                margin-right: 49%;
+
+              }
+
+              .image3 {
+                position: absolute;
+                top: 900px;
+                left: 0;
+                border: 1px solid #000000;
+                margin: 30px;
+        max-width: 45%;
+        height: 80%;
+        border-radius: 2%;
+    
+    
+              }
+              
+              .image4 {
+                position: absolute;
+                top: 1100px;
+                left: 845px;
+                border: 1px solid #000000;
+                max-width: 40%;
+                height: 90%;
+                border-radius: 2%;
+
+              }
+
+
+              .image5 {
+                position: absolute;
+                top: 1600;
+                left: 0;
+                border: 1px solid #000000;
+                margin: 30px;
+        max-width: 65%;
+        width:35%;
+        height: 80%;
+        border-radius: 2%;
+              }
+              
+              .image6 {
+                position: absolute;
+                top: 1900px;
+                left: 850px;
+                border: 1px solid #000000;
+                max-width: 40%;
+                width:43%;
+                height: 90%;
+                border-radius: 2%;
+
+              }
+
+
+             
+
+
+
+
+               
+                .parent .text1{
+                    position: absolute;
+                    z-index: 999;
+                    margin: 0 auto;
+                    left: -130px;
+                    right: 0;        
+                    text-align: center;
+                    top: 46%; /* Adjust this value to move the positioned div up and down */
+                    background: red;
+                    font-family: Arial,sans-serif;
+                    color: #fff;
+                    width: 30%; /* Set the width of the positioned div */
+                    height: 40%;
+                    border-radius: 8px;
+                    box-shadow: 4px 3px 8px 1px black;
+  	-webkit-box-shadow: 4px 3px 8px 1px black;
+
+                }
+                .butn{
+                    width:180px;
+                    color:#000;
+                    font size: 12px;
+                    padding: 12px 0;
+                    background: #fff;
+                    border: 0;
+                    border-radius: 20px;
+                    outline: none;
+                    margin-top: 10px;
+                }
+
+
+                .text1 .h2{
+padding: 14px;
+
+                }
+                .parent .text2{
+                    position: absolute;
+                    z-index: 999;
+                    margin: 0 auto;
+                    left: 200px;
+                    right: 0;        
+                    text-align: center;
+                    top: 95%; /* Adjust this value to move the positioned div up and down */
+                    background: red;
+                    font-family: Arial,sans-serif;
+                    color: #fff;
+                    width: 25%; /* Set the width of the positioned div */
+                    height: 30%;
+                    border-radius: 8px;
+                    box-shadow: 4px 3px 8px 1px blue;
+  	-webkit-box-shadow: 4px 3px 8px 1px blue;
+
+                }
+
+                .parent .text3{
+                    position: absolute;
+                    z-index: 999;
+                    margin: 0 auto;
+                    left: -220px;
+                    right: 0;        
+                    text-align: center;
+                    top: 155%; /* Adjust this value to move the positioned div up and down */
+                    background: red;
+                    font-family: Arial,sans-serif;
+                    color: #fff;
+                    width: 30%; /* Set the width of the positioned div */
+                    height: 36%;
+                    border-radius: 8px;
+                    box-shadow: 4px 3px 8px 1px black;
+  	-webkit-box-shadow: 4px 3px 8px 1px black;
+
+                }
+
+                .parent .text4{
+                    position: absolute;
+                    z-index: 999;
+                    margin: 0 auto;
+                    left: 200px;
+                    right: 0;        
+                    text-align: center;
+                    top: 200%; /* Adjust this value to move the positioned div up and down */
+                    background: red;
+                    font-family: Arial,sans-serif;
+                    color: #fff;
+                    width: 20%; /* Set the width of the positioned div */
+                    height: 45%;
+                    border-radius: 8px;
+                    box-shadow: 4px 3px 8px 1px blue;
+  	-webkit-box-shadow: 4px 3px 8px 1px blue;
+
+                }
+
+
+
+                .parent .text5{
+                    position: absolute;
+                    z-index: 999;
+                    margin: 0 auto;
+                    left: -220px;
+                    right: 0;        
+                    text-align: center;
+                    top: 275%; /* Adjust this value to move the positioned div up and down */
+                    background: red;
+                    font-family: Arial,sans-serif;
+                    color: #fff;
+                    width: 30%; /* Set the width of the positioned div */
+                    height: 36%;
+                    border-radius: 8px;
+                    box-shadow: 4px 3px 8px 1px black;
+  	-webkit-box-shadow: 4px 3px 8px 1px black;
+
+                }
+
+                .parent .text6{
+                    position: absolute;
+                    z-index: 999;
+                    margin: 0 auto;
+                    left: 200px;
+                    right: 0;        
+                    text-align: center;
+                    top: 325%; /* Adjust this value to move the positioned div up and down */
+                    background: red;
+                    font-family: Arial,sans-serif;
+                    color: #fff;
+                    width: 30%; /* Set the width of the positioned div */
+                    height: 43%;
+                    border-radius: 8px;
+                    box-shadow: 4px 3px 8px 1px blue;
+  	-webkit-box-shadow: 4px 3px 8px 1px blue;
+
+                }
+
+              
+                .btttn{
+                    width:180px;
+                    color:#000;
+                    font size: 12px;
+                    padding: 12px 0;
+                    background: #fff;
+                    border: 0;
+                    border-radius: 20px;
+                    outline: none;
+                    margin-top: 50px;
+                }
+
+
+                
+              
+
+               /* .box .text{
+                    position: absolute;
+                    z-index: 999;
+                    margin: 0 auto;
+                    left: 0;
+                    right: 0;
+                    top: 4
+
+             /* .image2 {
+                position: absolute;
+                top: 400px;
+                left: 850px;
+                border: 1px solid #000000;
+                max-width: 40%;
+                height: 60%;
+
+              }
+
+              .btn{
+                    width:180px;
+                    color:#000;
+                    font size: 12px;
+                    padding: 12px 0;
+                    background: #fff;
+                    border: 0;
+                    border-radius: 20px;
+                    outline: none;
+                    margin-top: 10px;
+                }
